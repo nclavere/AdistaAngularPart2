@@ -1,4 +1,4 @@
-# Adista Angular #1
+# Adista Angular #2
 Formation de démarrage sur Angular pour débutants - Partie 2
 
 ## Prérequis
