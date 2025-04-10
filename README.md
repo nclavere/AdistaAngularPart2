@@ -111,67 +111,8 @@ if (app.Environment.IsDevelopment())
 }
 ```
 
-Tester dans Swagger en vous connectant : vous accéder mintenant à l'Api 😊
+Tester dans Swagger en vous connectant : vous accéder maintenant à l'Api 😊
 
 ## 3. Implémenter l'authentification Azure dans Angular
 
-1. Installer le package Angular MSAL
-
-```
-npm install @azure/msal-angular @azure/msal-browser
-```
-
-La suite arrive ...
-
-<!-- 
-2. 
-
-Créer le fichier environment/environment.ts :
-
-
-``` Typescript
-export const environment = {
-	apiUrl:'https://localhost:7117/api',
-	tenantId: "aebcfc61-729f-4a60-923a-da1524fd2081",
-  clientId: "2d3968cc-c0ed-4311-aef7-9178362ce8b0"
-};
-```
-
-
-
-3. Créer le composant Login
-
-```
-ng g c login-page
-```
-
-Créer le fichier app/authConfig.ts :
-
-``` Typescript
-export const authConfig = {
-	auth : {
-    clientId: environement.clientId,
-    authority: 'https://login.microsoftonline.com/' +environement.tenantId,
-  } 
-};
-
-const data = {
-  account: null as AccountInfo |null,
-  msalIntance: new PublicClientApplication(authConfig),
-  token: "",
-}
-
-export function useAuth() {
-  return data;
-}
-```
-
-login-page.component.html :
-
-``` Html
-<button (click)="login()">Log In</button>
-
-@if(this.authConfig.account){
-  <button (click)="login()">Logout</button>
-}
-``` -->
+Récupérer les sources du template Adenes qui contient déjà toute la configuration Angular pour Azure ...
